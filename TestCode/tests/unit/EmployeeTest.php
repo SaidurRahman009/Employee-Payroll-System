@@ -19,7 +19,7 @@ class EmployeeTest extends \PHPUnit\Framework\TestCase{
 		$this -> assertEquals($this->employee->getName(),'keyboard');
 
 		$this->employee->setsalary('5000');
-		$this->assertEquals($this->employee->getsalary(), '500');
+		$this->assertEquals($this->employee->getsalary(), '5000');
 
 		$this->employee->set_active_days('20');
 		$this->assertEquals($this->employee->get_active_days(), '20');
