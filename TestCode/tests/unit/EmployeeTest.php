@@ -15,8 +15,8 @@ class EmployeeTest extends \PHPUnit\Framework\TestCase{
 	{
 		
 
-		$this->employee -> setName('keyboard');
-		$this -> assertEquals($this->employee->getName(),'keyboard');
+		$this->employee -> setName('KM44');
+		$this -> assertEquals($this->employee->getName(),'KM44');
 
 		$this->employee->setsalary('5000');
 		$this->assertEquals($this->employee->getsalary(), '5000');
